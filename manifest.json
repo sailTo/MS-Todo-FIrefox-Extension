@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "ToDo",
+  "version": "1.0",
+
+  "description": "Simple way to visit Microssoft Todo Web Edition",
+  "homepage_url": "https://github.com/???",
+  "icons": {
+    "48": "todo.png"
+  },
+
+  "permissions": [
+    "*://*.microsoft.com/*"
+    ],
+
+  "sidebar_action": {
+    "default_icon": "todo.png",
+    "default_title" : "ToDo",
+    "default_panel": "index.html"
+    },
+	
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Space"
+      }
+    }
+  }
+}
