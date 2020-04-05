@@ -5,13 +5,12 @@
   "version": "1.0",
 
   "description": "Simple way to visit Microssoft Todo Web Edition",
-  "homepage_url": "https://github.com/???",
+  "homepage_url": "https://github.com/uu-box/MS-Todo-FIrefox-Extension",
   "icons": {
     "48": "todo.png"
   },
 
   "permissions": [
-    "*://*.microsoft.com/*"
     ],
 
   "sidebar_action": {
